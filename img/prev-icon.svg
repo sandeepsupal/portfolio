@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96.873" height="112.659" viewBox="0 0 96.873 112.659">
+  <defs>
+    <filter id="prev-icon" x="0" y="0" width="96.873" height="112.659" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#prev-icon)">
+    <path id="prev-icon-2" data-name="prev-icon" d="M515,4.528l15.785,15.8L515,36.131l1.528,1.528,17.346-17.329L516.528,3Z" transform="translate(572.87 73.66) rotate(180)" fill="rgba(0,0,0,0.3)"/>
+  </g>
+</svg>
