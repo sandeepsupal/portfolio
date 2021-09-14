@@ -1,0 +1,66 @@
+/* .headerNav{
+	background-color: #fff;
+	display: flex;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	padding: 16px 0;
+} */
+
+.logo {
+    width: 20%;
+}
+
+.contact {
+    width: 60%;
+}
+
+.contact button {
+    float: right;
+}
+
+.sectionHeader {
+    margin: 40px 20% 20px 20%;
+}
+
+.intro,
+.work {
+    display: flex;
+    justify-content: center;
+}
+
+.intro>* {
+    max-width: 30%;
+    flex: 1 1 30%;
+}
+
+.work {
+    gap: 105px;
+    margin: 0 20%;
+    flex-wrap: wrap;
+}
+
+.work>* {
+    flex: 1 1 33%;
+    max-width: calc(33% - 70px);
+    background: #f5f5f5;
+    border-radius: 30px;
+    text-align: center;
+    padding: 60px 42px;
+    box-sizing: border-box;
+}
+
+.territory {
+    margin: 0 20%;
+}
+
+.territoryCard {
+    background: #f5f5f5;
+    border-radius: 30px;
+}
+
+.textPart {
+    padding: 90px 120px;
+    box-sizing: border-box;
+    width: 50%;
+}
